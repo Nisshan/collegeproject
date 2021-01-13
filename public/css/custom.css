@@ -1,0 +1,117 @@
+body {
+  font-family: "Mukta", sans-serif !important;
+}
+
+#top-pages {
+  background: #192a56;
+  color: #fff !important;
+  padding: 5px 10px;
+}
+#top-pages a {
+  color: #fff !important;
+  font-size: 16px;
+}
+.pages-link a {
+  padding: 0 20px;
+}
+.social-icons a {
+  margin-right: 30px;
+}
+
+.main-heading a {
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ee002d;
+}
+.left-links a {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-right: 10px;
+  color: #000;
+}
+.main-news-heading h2 {
+  font-size: 18px;
+  padding: 10px 0px 10px 0px;
+}
+.sub-news h3 {
+  font-size: 18px;
+}
+
+
+.custom2-thumbnail img {
+  height: 80px;
+  width: 80px;
+  padding: 0px 10px 10px 0;
+  border-radius: 0;
+  border: none;
+}
+
+.margin-auto {
+  width: 85%;
+  margin: 0 auto;
+}
+.logo-branding img {
+  height: 150px;
+  margin-top: 10px;
+}
+.header-area .newspaper-main-menu .classy-navbar .classynav > ul > li > a {
+  color: #fff !important;
+  font-size: 18px;
+}
+.menu-on .classynav ul li a {
+  color: #000 !important;
+}
+.logo a i {
+  color: #fff !important;
+  font-size: 32px;
+}
+.classy-navbar-toggler .navbarToggler span {
+  background: #fff !important;
+}
+.header-area
+  .is-sticky
+  .newspaper-main-menu
+  .classy-navbar
+  .classynav
+  > ul
+  > li
+  > a,
+.header-area .newspaper-main-menu .menu-on .classynav > ul > li > a {
+  color: #000 !important;
+}
+.classynav ul li.has-down > a:after,
+.classynav ul li.megamenu-item > a:after {
+  content: "" !important;
+}
+@media only screen and (min-width: 992px) {
+  .header-area .newspaper-main-menu .classy-navbar .classynav > ul > li > a {
+    color: #fff !important;
+  }
+}
+.view-all {
+  display: none;
+}
+.btn-custom {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #192a56;
+  font-weight: 500;
+}
+.btn-custom:hover {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #192a56;
+  font-weight: 500;
+}
+.sub-news h3 {
+  font-weight: 500 !important;
+}
+@media only screen and (max-width: 768px) {
+  .left-links {
+    display: none;
+  }
+  .view-all {
+    display: block;
+  }
+}
